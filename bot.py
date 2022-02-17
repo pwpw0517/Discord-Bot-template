@@ -10,37 +10,37 @@ bot = commands.Bot(command_prefix='')
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send(f'{round(bot.latency*1000)}(ms)')
+    await ctx.send(f'{round(bot.latency*1000)}(ms)')#your bot ping
 
 @bot.command()
-async def kevin好帥(ctx):
-    await ctx.send('真的挺帥的')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 @bot.command()
-async def 是吧(ctx):
-    await ctx.send('是阿')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 @bot.command()
-async def 對吧(ctx):
-    await ctx.send('對阿')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 @bot.command()
-async def 羊又騎請我吃早餐(ctx):
-    await ctx.send('羊又騎請他吃早餐')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 
 @bot.command()
-async def 欠錢還錢(ctx):
-    await ctx.send('曾士恩欠我200')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 @bot.command()
-async def 你出(ctx):
-    await ctx.send('曾士恩出')
+async def inputdirectives(ctx):
+    await ctx.send('What do you want the robot to say')
 
 
 
 @bot.event
 async def on_ready():
-    print('>>Bot is online<<')
+    print('>>Bot is online<<')#press F5 to start robot
 
 bot.run(jdata['TOKEN'])
